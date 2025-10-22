@@ -7,7 +7,10 @@ import {
   BlogLocalJsonPage_31,
   BlogNodePage_31,
   BookListPage_31,
+  BlogSupaPage_31,
 } from './pages';
+
+import { T11_ErrorExamplePage_31, T12_UseStateBasicsPage_31 } from './pages/tutorials';
 
 const router = createBrowserRouter([
   {
@@ -31,11 +34,33 @@ const router = createBrowserRouter([
         element: <BlogNodePage_31 />,
       },
       {
+        path: 'supa_31',
+        element: <BlogSupaPage_31 />,
+      },
+      {
         path: 'booklist_31',
         element: <BookListPage_31 />,
       },
     ],
   },
+  {
+    path: '/tutorials',
+    element: <HomeLayoutPage_31 />,
+    children: [
+      {
+        index: true,
+        element: <HomePage_31 />,
+      },
+      {
+        path: 't11',
+        element: <T11_ErrorExamplePage_31 />,
+      },
+      {
+        path: 't12',
+        element: <T12_UseStateBasicsPage_31 />,
+      },
+    ],
+  }
 ]);
 
 const App_31 = () => {

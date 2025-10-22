@@ -127,7 +127,25 @@ const Navbar_31 = () => {
                       <Link to='/node_31'>W4-BlogNode_31</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>W5-Supabase_31</Link>
+                      <Link to='/supa_31'>W6-Supabase_31</Link>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li className='menu-item dropdown'>
+                <Link to='#'>Tutorials +</Link>
+                <div className='sub-menu-wrapper slideInUp'>
+                  <ul className='sub-menu'>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t11'>
+                        T11-Advanced React Hooks
+                      </Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t12'>
+                        T12-UseState Basics
+                      </Link>
                     </li>
                   </ul>
                 </div>

@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 
 // import blogData_31 from '../assets/data/blogData.json';
-import Blog_31 from '../components/blog_31';
+import Blog_31 from '../components/Blog_31';
+import Wrapper from '../assets/wrappers/Blog2_31';
 
 const api_url = 'http://localhost:5000/api/blog_31';
 
@@ -26,7 +27,7 @@ const BlogNodePage_31 = () => {
   }, []);
 
   return (
-    <>
+    <Wrapper>
       <section className='blogs'>
         <div className='section-title'>
           <h2>
@@ -49,7 +50,7 @@ const BlogNodePage_31 = () => {
           })}
         </div>
       </section>
-    </>
+    </Wrapper>
   );
 };
 

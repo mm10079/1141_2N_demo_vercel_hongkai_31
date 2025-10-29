@@ -6,9 +6,9 @@ const Blog_31 = ({ id, img, category, title, descrip }) => {
     <article key={id} className='blog'>
       <img src={img} alt='Coffee photo' className='img blog-img' />
       <div className='blog-content'>
-        <span>
+        <span className='flex'>
           {category}
-          {category === 'lifestyle' ? <FaMugSaucer /> : <FaGlobe />}
+          {category === 'lifestyle' ? (<FaMugSaucer />) : (<FaGlobe />)}
         </span>
         <h3>{title}</h3>
         <p>{descrip}</p>

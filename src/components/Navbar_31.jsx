@@ -129,6 +129,9 @@ const Navbar_31 = () => {
                     <li className='menu-item'>
                       <Link to='/supa_31'>W6-Supabase_31</Link>
                     </li>
+                    <li className='menu-item'>
+                      <Link to='/localjson2_31'>W7-BlogLocalJson2_31</Link>
+                    </li>
                   </ul>
                 </div>
               </li>

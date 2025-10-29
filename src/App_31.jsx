@@ -8,9 +8,10 @@ import {
   BlogNodePage_31,
   BookListPage_31,
   BlogSupaPage_31,
+  BlogLocalJsonPage2_31,
 } from './pages';
 
-import { T11_ErrorExamplePage_31, T12_UseStateBasicsPage_31 } from './pages/tutorials';
+import { T11_ErrorExamplePage_31, T12_UseStateBasicsPage_31} from './pages/tutorials';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: 'localjson_31',
         element: <BlogLocalJsonPage_31 />,
+      },
+      {
+        path: 'localjson2_31',
+        element: <BlogLocalJsonPage2_31 />,
       },
       {
         path: 'node_31',

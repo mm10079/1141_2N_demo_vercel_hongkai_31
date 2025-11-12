@@ -1,5 +1,5 @@
 {
-  "name": "w03-vite-app",
+  "name": "w03_blogs_xx",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,14 +14,11 @@
     "@tailwindcss/vite": "^4.1.14",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-icon": "^1.0.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.9.3",
     "sass": "^1.93.2",
-    "scss": "^0.2.4",
     "styled-components": "^6.1.19",
-    "tailwindcss": "^4.1.14",
-    "vite-plugin-sass": "^0.1.0"
+    "tailwindcss": "^4.1.14"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
@@ -33,10 +30,5 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.4.0",
     "vite": "^7.1.7"
-  },
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "eslint.config.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }

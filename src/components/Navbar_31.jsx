@@ -1,5 +1,5 @@
 import React from 'react';
-import Wrapper from '../assets/wrappers/Navbar_31';
+import Wrapper from '../assets/wrappers/Navbar_xx';
 import { Link } from 'react-router-dom';
 
 const Navbar_31 = () => {
@@ -24,7 +24,7 @@ const Navbar_31 = () => {
                 </Link>
               </li>
 
-              <li className='menu-item mega-menu'>
+              {/* <li className='menu-item mega-menu'>
                 <Link to='#'>Mega menu +</Link>
                 <div className='mega-menu-wrapper slideInUp'>
                   <div className='mega-menu-col'>
@@ -108,29 +108,26 @@ const Navbar_31 = () => {
                     </ul>
                   </div>
                 </div>
-              </li>
+              </li> */}
 
               <li className='menu-item dropdown'>
-                <Link to='#'>Demo</Link>
+                <Link to='#'>Demo +</Link>
                 <div className='sub-menu-wrapper slideInUp'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
-                      <Link to='/booklist_31'>W2-BookList_31</Link>
+                      <Link to='/booklist_xx'>W2-BookList_xx</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='/static_31'>W3-BlogStatic_31</Link>
+                      <Link to='/static_xx'>W3-BlogStatic_xx</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='/localjson_31'>W3-BlogLocalJson_31</Link>
+                      <Link to='/localjson_xx'>W3-BlogLocalJson_xx</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='/node_31'>W4-BlogNode_31</Link>
+                      <Link to='/node_xx'>W4-BlogNode_xx</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='/supa_31'>W6-Supabase_31</Link>
-                    </li>
-                    <li className='menu-item'>
-                      <Link to='/localjson2_31'>W7-BlogLocalJson2_31</Link>
+                      <Link to='#'>W5-BlogSupa_xx</Link>
                     </li>
                   </ul>
                 </div>
@@ -141,35 +138,71 @@ const Navbar_31 = () => {
                 <div className='sub-menu-wrapper slideInUp'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
-                      <Link to='/tutorials/t11'>
-                        T11-Advanced React Hooks
+                      <Link to='/tutorials/t11_xx'>
+                        T11_ErrorExamplePage_xx
                       </Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='/tutorials/t12'>
-                        T12-UseState Basics
+                      <Link to='/tutorials/t12_xx'>
+                        T12_UseStateBasicsPage_xx
                       </Link>
                     </li>
                   </ul>
                 </div>
               </li>
-              <li className='menu-item'>
-                <Link to='#'>Blog</Link>
+              <li className='menu-item dropdown'>
+                <Link to='#'>Quiz1 +</Link>
+                <div className='sub-menu-wrapper slideInUp'>
+                  <ul className='sub-menu'>
+                    <li className='menu-item'>
+                      <Link to='/quiz1/static_xx'>TourStaticPage_xx</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/quiz1/static2_xx'>TourStaticPage2_xx</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/quiz1/static3_xx'>TourStaticPage3_xx</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/quiz1/node_xx'>TourNodePage_xx</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
+
+              <li className='menu-item dropdown'>
+                <Link to='#'>Midterm +</Link>
+                <div className='sub-menu-wrapper slideInUp'>
+                  <ul className='sub-menu'>
+                    <li className='menu-item'>
+                      <Link to='/midterm/p1_31'>P1_StaticPage_31</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/midterm/p2_31'>P2_StaticPage2_31</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/midterm/p3_31'>P3_NodePage_31</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/midterm/p4_31'>P4_SupaPage_31</Link>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
               <li className='menu-item'>
                 <Link to='#'>Contact</Link>
               </li>
             </ul>
-            <a
+            <Link
               to='#'
               id='hamburger-icon'
               className='mobile-toggler'
               aria-label='Mobile Menu'
             >
               <i className='fas fa-bars'></i>
-            </a>
+            </Link>
           </div>
-
           <div id='mobile-menu' className='mobile-menu hidden slideInDown'>
             <ul>
               <li className='menu-item'>
@@ -178,7 +211,7 @@ const Navbar_31 = () => {
                 </Link>
               </li>
 
-              <li className='menu-item mega-menu'>
+              {/* <li className='menu-item mega-menu'>
                 <Link to='#'>Mega menu +</Link>
                 <div className='mega-menu-wrapper'>
                   <div className='mega-menu-col'>
@@ -262,7 +295,7 @@ const Navbar_31 = () => {
                     </ul>
                   </div>
                 </div>
-              </li>
+              </li> */}
 
               <li className='menu-item dropdown'>
                 <Link to='#'>Services +</Link>
@@ -283,8 +316,23 @@ const Navbar_31 = () => {
                   </ul>
                 </div>
               </li>
-              <li className='menu-item'>
-                <Link to='#'>Blog</Link>
+
+              <li className='menu-item dropdown'>
+                <Link to='#'>Tutorials +</Link>
+                <div className='sub-menu-wrapper slideInUp'>
+                  <ul className='sub-menu'>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t11_xx'>
+                        T11_ErrorExamplePage_xx
+                      </Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t12_xx'>
+                        T12_UseStateBasicsPage_xx
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className='menu-item'>
                 <Link to='#'>Contact</Link>

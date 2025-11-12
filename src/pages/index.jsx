@@ -1,8 +1,7 @@
 export { default as HomeLayoutPage_31 } from './HomeLayoutPage_31';
 export { default as HomePage_31 } from './HomePage_31';
-export { default as BlogStaticPage_31 } from './BlogStaticPage_31';
-export { default as BlogLocalJsonPage_31 } from './BlogLocalJsonPage_31.jsx';
-export { default as BlogLocalJsonPage2_31 } from './BlogLocalJsonPage2_31.jsx';
-export { default as BlogNodePage_31 } from './BlogNodePage_31.jsx';
-export { default as BlogSupaPage_31 } from './BlogSupaPage_31.jsx';
-export { default as BookListPage_31 } from './BookListPage_31.jsx';
+export { default as BlogStaticPage_xx } from './BlogStaticPage_xx';
+export { default as BlogLocalJsonPage_xx } from './BlogLocalJsonPage_xx';
+export { default as BlogNodePage_xx } from './BlogNodePage_xx';
+export { default as BookListPage_xx } from './BookListPage_xx';
+export { default as BlogSupaPage_xx } from './BlogSupaPage_xx';

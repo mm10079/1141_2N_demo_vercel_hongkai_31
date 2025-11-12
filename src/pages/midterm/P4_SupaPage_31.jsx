@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { supabase } from '../db/clientSupabase';
+import { supabase } from '../../db/clientSupabase';
 import Product_31 from '../../components/midterm/Product_31';
 import Wrapper from '../../assets/wrappers/midterm/Shop_31';
 
@@ -9,9 +9,6 @@ const P4_SupaPage_31 = () => {
   const fetchShopFromSupaServer = async () => {
     try {
       let { data, error } = await supabase.from('shop_31').select('*');
-
-      // const response = await fetch(api_url);
-      // const data = await response.json();
       setShop_31(data);
     } catch (error) {
       console.log(error);
